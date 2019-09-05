@@ -27,6 +27,7 @@ public class Main
         injector = new BaseballAthleteCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
+        app.displayCourt();
 
     }
 }
